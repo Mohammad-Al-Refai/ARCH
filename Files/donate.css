@@ -16,12 +16,12 @@ html {
   height: 100%;
 }
 .wave_img {
-  height: 400px;
+  height: 300px;
   width: 100%;
 }
 .title {
   position: relative;
-  bottom: 350px;
+  bottom: 250px;
   left: 200px;
   color: white;
   width: 200px;
@@ -31,12 +31,12 @@ html {
   width: 250px;
   height: 250px;
   position: absolute;
-  top: 200px;
+  top: 80px;
   left: 300px;
 }
 .text1 {
   position: absolute;
-  top: 270px;
+  top: 190px;
   left: 560px;
   color: rgb(70, 70, 70);
   font-size: 20px;
@@ -71,11 +71,12 @@ html {
   color: white;
   border: 0px;
   background-color: rgb(157, 87, 223);
-  font-size:20px
+  font-size:13px
 }
 .text2 {
   height: 80px;
   margin-top: 20px;
+  font-size: large;
   color: rgb(53, 53, 53);
 }
 /* card2 */
@@ -86,7 +87,7 @@ html {
   box-shadow: 10px 10px 50px 1px rgb(175, 175, 175);
   position: absolute;
   right: 15%;
-  top: 200px;
+  top: 100px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -398,4 +399,87 @@ button:hover{
     transform:translate(-50%,50%) rotate(45deg);
     background-color:rgb(255, 255, 255);
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 380px) {
+  .tooltip .bottom  {
+    min-width:350px;
+    top:-10px;
+    left:-95px;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:rgb(255, 255, 255);
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    margin-top: 40px;
+}
+.tooltip .bottom p{
+  font-size: 9px;
+}
+.tooltip .bottom i{
+  left: 300px;
+}
+
+.card2 {
+ width: 90px;
+ height:100px;
+ top: 55px;
+ left: 260px;
+}
+
+.card2 img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+.text2 {
+font-size: 8px;
+}
+
+.s1 {
+  display: none;
+
+}
+.btn {
+ width: 60px;
+ height: 15px;
+ font-size: 8px;
+top: -50px;
+
+}
+
+.text1 {
+left: 125px;
+font-size: 8px;
+top: 80px;
+
+}
+.header {
+  height: 140px;
+}
+.title {
+font-size: 20px;
+top: -110px;
+left: 30px;
+}
+.donate_img {
+width: 70px;
+height: 70px;
+left: 50px;
+top: 60px;
+
+}
+.wave_img {
+height: 120px;
+}
+}
+@media screen and (width: 600px) {
+    
+
 }
